@@ -6,8 +6,7 @@ const employee = {
 }
 
 function checkPropertyExists(employee, str) {
-    let result = (str in employee) ? true : false;
-    return result;
+    return (str in employee);
 }
 
 const str = 'post';
